@@ -6,6 +6,11 @@
 - **Birthday**: July 23, 1968
 - **Born in**: Hawaii
 
+## Early life
+https://www.cdc.gov/epiinfo/story/story1976.html
+
+https://www.newyorker.com/magazine/2018/12/10/the-friendship-that-made-google-huge#:~:text=Jeff%20was%20born%20in%20Hawaii,spoke%20half%20a%20dozen%20languages.
+
 ## Contributions
 
 Jeff's contributions generally have to do with efficiency, scalability and speed of systems.
