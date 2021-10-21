@@ -43,7 +43,11 @@ Jeff and his team were responsible for designing and implementing not one but tw
 
 **Bigtable** and its subsequent paper were seminal works in the field of NoSQL databases. It´s design would influence later NoSQL database implementations such as Apache Cassandra. It has been used by many of Google´s flagship products such as Youtube, Gmail, and Search. This is due to its high scalability and performance. However, several weaknesses of Bigtable such as only eventual consistency, no SQL capabilities, and lack of transactional operations led to the development of its descendant: Spanner.
 
-**Spanner**
+**Spanner** was developed from the lessons learned with Bigtable, and seeks to solve most of its weaknesses. It offers strong global consistency across the whole system, and unlike Bigtable is offers an SQL interface and supports transactional global operations across all rows, columns, tables and databases. Due to this the system can work as a single unit even if distributed across multiple machines spanning the entire globe. Most of this was achieved thanks to a revolutionary method of timekeeping implemented across Google´s data-centres, allowing for all the nodes to be modified synchronously while maintaining consistency across writes. While this technology is still on its early stages of adoption outside of Google, it is foreseeable that it will spark a new generation of consistent, globally distributed, transactional SQL databases to power the internet of the future.
+
+** Current Work
+
+
 
 
 
