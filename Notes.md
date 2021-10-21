@@ -43,6 +43,10 @@ This technology underlies later iterations such as Hadoop, which has made modern
     For example, the ability to transparently scale out the cluster by adding nodes and the automatic failover of both data storage and data processing subsystems happen with zero impact on applications.
     The other side of the coin here is that although MapReduce hides a tremendous amount of complexity, you can’t afford to forget what it is: an interface for parallel programming. This is an advanced skill — and a barrier to wider adoption. There simply aren’t yet many MapReduce programmers, and not everyone has the skill to master it."
 
+### Bigtable
+References:
+- *https://www.dataversity.net/the-nosql-movement-big-table-databases/#:~:text=Hypertable%20is%20a%20tabular%20database,on%20Linux%20or%20Mac%20servers.*
+
  ### Spanner
  References:
 
