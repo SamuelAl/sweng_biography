@@ -45,9 +45,28 @@ Jeff and his team were responsible for designing and implementing not one but tw
 
 **Spanner** was developed from the lessons learned with Bigtable, and seeks to solve most of its weaknesses. It offers strong global consistency across the whole system, and unlike Bigtable is offers an SQL interface and supports transactional global operations across all rows, columns, tables and databases. Due to this the system can work as a single unit even if distributed across multiple machines spanning the entire globe. Most of this was achieved thanks to a revolutionary method of timekeeping implemented across Google´s data-centres, allowing for all the nodes to be modified synchronously while maintaining consistency across writes. While this technology is still on its early stages of adoption outside of Google, it is foreseeable that it will spark a new generation of consistent, globally distributed, transactional SQL databases to power the internet of the future.
 
-** Current Work
+## Current Work
 
+Jeff Dean currently works as head of Google´s Artificial Intelligence efforts. His most prominent work in the area include the development of TensorFlow, Google´s open-sourced AI library. **TensorFlow** is one of the most widely known and used AI libraries, both for research and in production. Jeff´s contribution deals mainly in the design and optimization for production applications in AI. It is this last aspect that sets TensorFlow apart from competitors such as PyTorch, which has been argued to be less performant in production systems, even if possibly easier to use for research purposes.
 
+## Conclusion and Final Thoughts
+
+I chose to write this biography about Jeff Dean because he represents the kind of software engineer I would like to become. The way he tackles novel problems, his attention to detail and his insistence that such details are what makes the difference have led my education and academic efforts during my time as a university student. Apart from this, his contribution to computer science is impressive in its extension and undeniable in its influence. The internet as we know it today, with the existence of cloud platforms such as Google, would arguably not exist if it were not for his work in distributed systems. When given credit, he always reminds people that he was just part of a team, and that most of his work would not have been possible without the work of collaborators such as Sanjay and other fellow Google engineers. I believe this should be the spirit guiding the discipline of software engineer forwards.
+
+# References
+
+- *https://www.cdc.gov/epiinfo/story/story1976.html*
+- *https://slate.com/technology/2013/01/jeff-dean-facts-how-a-google-programmer-became-the-chuck-norris-of-the-internet.html*
+-  *https://slate.com/technology/2013/01/jeff-dean-facts-how-a-google-programmer-became-the-chuck-norris-of-the-internet.html*
+- *https://www.sciencedirect.com/topics/computer-science/mapreduce*
+-  *https://www.sciencedirect.com/science/article/pii/B9780124201583000198*
+- *https://www.dataversity.net/the-nosql-movement-big-table-databases/#:~:text=Hypertable%20is%20a%20tabular%20database,on%20Linux%20or%20Mac%20servers.*
+- *https://www.wired.com/2012/11/google-spanner-time/*
+- *https://www.geeksforgeeks.org/why-tensorflow-is-so-popular-tensorflow-features/*
+- *https://en.wikipedia.org/wiki/Jeff_Dean*
+- *https://en.wikipedia.org/wiki/Spanner_(database)*
+- *https://en.wikipedia.org/wiki/Bigtable*
+- *https://www.newyorker.com/magazine/2018/12/10/the-friendship-that-made-google-huge#:~:text=Jeff%20was%20born%20in%20Hawaii,spoke%20half%20a%20dozen%20languages.*
 
 
 
